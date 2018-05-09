@@ -1,0 +1,143 @@
+body {
+	background-color: black;
+	font-size: 30px;
+}
+
+
+.wrapper {
+    width:90%;
+  	margin:0 auto;
+    background-color:white;
+    background-size: cover;
+    font-family: Courier;
+
+}
+
+.headlogo {
+	margin: 45px;
+	padding-left: 10px;
+
+}
+
+
+h1 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Cormorant', serif;
+	text-align: center;
+	font-size: 1em;
+}
+
+.column {
+	float:right;
+}
+
+#container { 
+	overflow: hidden; }
+
+#floatedimgs { 
+	float: right; 
+	padding-top: 42px;
+	padding-right: 50px;
+}
+
+
+#floatedimgs img {
+	display: block; 
+}
+
+	.button1{
+		padding: 5px;
+		padding-right: 14px;
+		padding-top: 10px;
+	}
+
+	.button2{
+		padding: 5px;
+		padding-right: 14px;
+		padding-top: 10px;
+	}
+
+	.button3{
+		padding: 5px;
+		padding-right: 14px;
+		padding-top: 10px;
+	}
+
+#foot {
+    width:100%;
+    margin:0 auto;
+    background-color:black;
+    background-size: cover;
+    font-family: ;
+    text-align: center;
+    color: white;
+
+}
+
+#lastline {
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+.sam{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	border: 13px;
+	border-color: black;
+	border-style: solid;
+	width: 400px;
+}
+
+@media only screen and (max-width:400px){
+
+	body{
+			font-size: 20px;
+	}
+
+	.headlogo{
+			width: 400%;
+	}
+
+	h1{ 
+		font-size: 1em;
+	}
+
+	h2{
+		font-size: .8em;
+	}
+
+	.button1{ 
+		width:60%;
+	}
+
+	.button2{ 
+		width:60%;
+	}
+
+	.button3{ 
+		width:60%;
+	}
+
+	.sam{
+		width:70%;
+	}
+
+	.headlogo{
+		width:80%;
+	}
+
+}

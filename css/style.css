@@ -1,0 +1,102 @@
+body {
+	background-color: black;
+	font-size: 30px;
+}
+
+
+.wrapper {
+    width:90%;
+  	margin:0 auto;
+    background-color:white;
+    background-size: cover;
+    font-family: Courier;
+
+}
+
+.headlogo {
+	margin: 30px;
+
+}
+
+.picture {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	border: 13px;
+	border-color: black;
+	border-style: solid;
+
+}
+
+h1 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+h2 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 1em;
+}
+
+.column {
+	float:right;
+}
+
+
+.buttons {
+
+}
+
+#foot {
+    width:100%;
+    margin:0 auto;
+    background-color:black;
+    background-size: cover;
+    font-family: ;
+    text-align: center;
+    color: white;
+    font-size: .5em;
+}
+
+.container {
+	text-align:center;
+}
+
+.container img {
+  display:inline-block;
+  width:25%;
+  margin:0 1% 0 1%;
+  padding-bottom: 30px; 
+}
+
+
+@media only screen and (max-width:400px){
+
+	body{
+			font-size: 20px;
+	}
+
+	.headlogo{
+			width: 400%;
+	}
+
+	h1{ 
+		font-size: 1em;
+	}
+
+	h2{
+		font-size: .8em;
+	}
+}
+	
+
+
